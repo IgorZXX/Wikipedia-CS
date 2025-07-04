@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="top" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um artigo completo sobre a história, desenvolvimento, atualizações e cenário competitivo de Counter-Strike: Global Offensive (CS:GO).">
+    <link rel="icon" href="https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/global/favicon.png" type="image/png">
+    <title>A História do Counter-Strike: Global Offensive (CS:GO)</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container Principal com Flexbox para layout de sidebar */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap; /* Permite que os itens quebrem para a linha de baixo em telas pequenas */
+            gap: 20px;
+            align-items: flex-start; /* Alinha os itens no topo */
+        }
+
+        /* Conteúdo Principal (Artigo) */
+        main {
+            flex: 3; /* Ocupa 3/4 do espaço */
+            min-width: 300px; /* Largura mínima para evitar que seja esmagado */
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Barra Lateral (Aside) */
+        aside {
+            flex: 1; /* Ocupa 1/4 do espaço */
+            min-width: 250px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e1e1e1;
+            height: fit-content; /* Ajusta a altura ao conteúdo */
+            position: sticky; /* Faz a barra lateral "flutuar" ao rolar */
+            top: 20px;
+        }
+
+        /* Estilos do Conteúdo */
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        strong {
+            color: #e67e22;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+        figcaption {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        
+        /* NOVO: Estilos para o Menu de Navegação Rápida */
+        .page-nav {
+            background-color: #eaf5ff;
+            border: 1px solid #bde0ff;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-bottom: 25px;
+        }
+        .page-nav h3 {
+            margin-top: 5px;
+            border-bottom: 0;
+        }
+        .page-nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .page-nav li {
+            padding: 4px 0;
+        }
+        
+        /* Estilos para a Ficha Técnica no Aside */
+        aside h3 {
+            margin-top: 0;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+        }
+        aside dl dt {
+            font-weight: bold;
+            color: #34495e;
+            margin-top: 10px;
+        }
+        aside dl dd {
+            margin-left: 0;
+            font-size: 0.95em;
+        }
+
+        /* Rodapé (Footer) */
+        footer {
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px 0;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="container">
+        <main>
+            <article>
+                <header>
+                    <h1>Counter-Strike: Global Offensive (CS:GO)</h1>
+                    <figure>
+                        <img src="https://media.steampowered.com/apps/csgo/blog/images/fb_image.png" title="Logo do CS:GO" alt="Logo do Counter-Strike: Global Offensive">
+                        <figcaption>Logo do Counter-Strike: Global Offensive</figcaption>
+                    </figure>
+                    
+                    <video controls title="Music Theme Main Menu" style="margin-bottom: 20px; margin-left: 50px;" width="650">
+                        <source src="Counter-Strike Global Offensive - Main Menu Music.mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                    <p><em>Musica Tema do CS:GO</em></p>
+                </header>
+
+                <nav class="page-nav" aria-label="Navegação Rápida">
+                    <h3>Neste Artigo</h3>
+                    <ul>
+                        <li><a href="#desenvolvimento">Desenvolvimento e Lançamento</a></li>
+                        <li><a href="#atualizacoes">Atualizações e Evolução</a></li>
+                        <li><a href="#requerimentos">Requerimentos Mínimos</a></li>
+                        <li><a href="#competicoes">Competições Profissionais</a></li>
+                        <li><a href="#transmissao">Transmissão ao Vivo</a></li>
+                    </ul>
+                </nav>
+
+                <section>
+                    <h2 id="intro" style="display:none;">Introdução</h2>
+                    <p><strong>Counter-Strike: Global Offensive (CS:GO)</strong> foi um jogo online desenvolvido pela <strong>Valve Corporation</strong> e pela <strong>Hidden Path Entertainment</strong>, sendo uma sequência de <em>Counter-Strike: Source</em>. É o quarto título principal da franquia.</p>
+                    <p>Foi lançado no dia <strong>21 de agosto de 2012</strong> para as plataformas Windows e OS X no Steam, Xbox 360, e PlayStation 3. A versão de Linux foi lançada em setembro de 2014. O jogo conta com conteúdo clássico de tiro, mapas retrabalhados, novos personagens e modos de jogo.</p>
+                    <p><em>Counter-Strike: Global Offensive</em> foi o jogo mais vendido pelo Steam no Brasil em 2015, com a compra de <strong>mais de 205 mil cópias</strong>.</p>
+                </section>
+
+                <section>
+                        <h2 id="desenvolvimento">Desenvolvimento e Lançamento</h2>
+                        <p>O desenvolvimento de <em>Global Offensive</em> começou quando a Hidden Path Entertainment tentou portar <em>Counter-Strike: Source</em> para consoles. O desenvolvimento começou em <strong>março de 2010</strong>, e o jogo foi lançado oficialmente em <strong>21 de agosto de 2012</strong>.</p>
+                        <p> O nascimento do <strong>CS:GO</strong> não foi planejado como um jogo totalmente novo, mas sim como um <strong>porte (adaptação)</strong> do seu antecessor, <em>Counter-Strike: Source</em>, para os consoles da época: o <strong>Xbox 360 e o PlayStation 3</strong>. A Valve contratou um estúdio externo, a <strong>Hidden Path Entertainment</strong>, para realizar essa tarefa.
+                        </p>
+
+                        <p>Durante o desenvolvimento, a Valve percebeu a oportunidade de fazer algo muito maior. Em vez de apenas relançar um jogo antigo, decidiram <strong>transformar o projeto em um título completo e moderno</strong>. Os objetivos principais dessa nova visão eram:</p>
+
+                    <ul>
+                        <li><strong>Modernizar:</strong> Atualizar os gráficos, as mecânicas de jogo e a interface de usuário.</li>
+                        <li><strong>Unificar a Comunidade:</strong> Criar uma plataforma única para juntar os jogadores que estavam divididos entre o clássico <em>CS 1.6</em> e o <em>CS: Source</em>.</li>
+                        <li><strong>Expandir o Conteúdo:</strong> Introduzir novos mapas, novas armas e modos de jogo para renovar a experiência.</li>
+                    </ul>
+
+                    <p>
+                        Um passo crucial para o sucesso foi o <strong>envolvimento de jogadores profissionais</strong> no processo. Eles foram convidados para testar o jogo e dar feedback, o que foi essencial para refinar a jogabilidade e garantir que a <strong>essência tática e competitiva</strong> da franquia fosse mantida.
+                    </p>
+                    
+                    <p>
+                        Assim, o que começou como um simples porte evoluiu para <strong>Counter-Strike: Global Offensive</strong>, lançado oficialmente em <strong>21 de agosto de 2012</strong>, e que, com o tempo, se consolidou como um dos <strong>maiores fenômenos dos e-sports</strong> no mundo.
+                    </p>
+            </section>
+
+                        <section>
+                            <h2 id="atualizacoes">Atualizações e Evolução</h2>
+                            <p>Uma das maiores adições foi a atualização <strong>"Arms Deal"</strong> (2013), que introduziu as <strong>skins</strong> de armas e uma economia virtual. Eventos como <strong>"Operations"</strong> expandiram o conteúdo com mapas da comunidade.</p>
+                            <p>Em <strong>dezembro de 2018</strong>, o jogo tornou-se <strong>gratuito (free-to-play)</strong> e ganhou o modo <em>battle royale</em> <strong>"Danger Zone"</strong>.</p>
+                            
+                            <p>Em setembro de 2021, o jogo recebeu atualizações nos modos de jogo, como a criação de partidas competitivas mais curtas de 18 rodadas, além de mudanças no modo <strong>Mata-mata</strong> onde foi acrescentado o <strong><em>Free-For-All</em></strong>.</p>
+
+                            <p>Em março de 2023, a Valve anunciou seu sucessor, <strong>Counter-Strike 2</strong>, construído no motor <strong>Source 2</strong>, com lançamento previsto para o inverno de 2023.</p>
+
+                            
+                            
+                        </section>
+
+                        <section>
+                            <h2 id="requerimentos">Requerimentos Mínimos</h2>
+                            <h3>Windows</h3>
+                            <ul>
+                                <li><strong>S.O:</strong> Windows 10 ou Superior </li>
+                                <li><strong>Processador:</strong> Intel Core i3 de 10ª Geração ou Core i5 de 4ª a 7ª Geração
+                                AMD Ryzen 3 3200G ou Ryzen 5 1600.</li>
+                                <li><strong>Memória:</strong> 8 GB RAM DDR4</li>
+                                <li><strong>Placa Gráfica:</strong> GeForce GTX 1050 Ti ou AMD Radeon RX 570.</li>
+                                <li><strong>Espaço livre:</strong> 80 GB</li>
+                            </ul>
+                            <h3>Mac</h3>
+                            <ul>
+                                <li><strong>S.O.:</strong> macOS X 10.11 (El Capitan) ou superior</li>
+                                <li><strong>Processador:</strong> Intel Core Duo (2GHz ou superior)</li>
+                                <li><strong>Memória:</strong> 2GB RAM</li>
+                                <li><strong>Placa Gráfica:</strong> ATI Radeon HD 2400 ou superior / NVIDIA 8600M ou superior</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h2 id="competicoes">Competições Profissionais</h2>
+                            <p><em>Ver artigos principais: <a href="#" aria-label="Ver artigo principal sobre Counter-Strike no esporte eletrônico">Counter-Strike no esporte eletrônico</a> e <a href="#" aria-label="Ver artigo principal sobre os Major Championships de CS:GO">Counter-Strike: Global Offensive Major Championships</a></em></p>
+                            <figure>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/MLG_Columbus_-_Luminosity_vs_Navi.jpg" alt="Equipe Luminosity Gaming competindo contra a Natus Vincere no campeonato MLG Columbus 2016." title="Luminosity Gaming vs Natus Vincere - MLG Columbus 2016">
+                                <figcaption>Luminosity Gaming competindo contra Natus Vincere no Major MLG Columbus 2016</figcaption>
+                            </figure>
+                        
+                            <p><em>CS:GO</em> tem uma das maiores cenas de <strong>esporte eletrônico</strong> do mundo. Os <strong>Major Championships</strong>, patrocinados pela Valve, são os torneios mais prestigiados, com premiações que alcançaram <strong>US$ 1.000.000</strong>.</p>
+                            
+                        </section>
+                        
+                        <section>
+                            <h2 id="transmissao">Transmissão ao Vivo</h2>
+                            <p>Os campeonatos são transmitidos geralmente em plataformas como <strong>Twitch</strong> e <strong>YouTube</strong>, com alguns eventos e ligas tendo parcerias de exclusividade com outras plataformas ao longo dos anos.</p>
+
+                            <h1>A Virada Histórica: Luminosity vs. Na'Vi</h1>
+                            <h2>Grande Final do Major MLG Columbus 2016 - Mapa 1: Mirage</h2>
+
+                            <p>
+                                A primeira partida da Grande Final do <strong>Major MLG Columbus 2016</strong> é um capítulo fundamental na história dos e-sports. De um lado, a <em>Luminosity Gaming (LG)</em>, o time brasileiro liderado por Gabriel "FalleN" Toledo, buscando seu primeiro grande título. Do outro, a gigante europeia <em>Natus Vincere (Na'Vi)</em>, amplamente considerada a favorita.
+                            </p>
+
+                            <p>
+                                O palco do confronto inicial foi o mapa <strong>Mirage</strong>. A Na'Vi começou do lado Terrorista de maneira implacável, executando táticas perfeitas que anularam a defesa brasileira. O resultado da primeira metade foi devastador: <em>um placar de 11 a 4 a favor da Na'Vi</em>. Para todos os efeitos, a partida parecia decidida.
+                            </p>
+
+                            <blockquote>
+                                "A tarefa da Luminosity era monumental. Eles precisavam vencer 12 dos próximos 15 rounds contra a equipe mais forte do mundo naquele momento. Era o teste definitivo de resiliência e força mental."
+                            </blockquote>
+
+                            <p>
+                                O que se seguiu foi uma das maiores demonstrações de foco e superação já vistas. Na troca de lados, a Luminosity, agora como Contra-Terrorista, iniciou uma <strong>defesa simplesmente impecável</strong>. Round a round, a equipe brasileira, com jogadas brilhantes de Marcelo "coldzera" David e a agressividade de Fernando "fer" Alvarenga, começou a reverter o placar.
+                            </p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/A2wu1e6Di_o?si=lxYVOOAR-rU_gfbX" title="Primeira partida major das equipes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="margin-left: 100px;" allowfullscreen></iframe>
+                            <p><sub style="margin-left: 70px;">Primeira partida da Luminosity Gaming competindo contra Natus Vincere no Major MLG Columbus 2016</sub></p>
+
+                            <p>
+                                Eles não apenas ganharam os rounds, mas também destruíram a economia e, mais importante, <em>a confiança da Na'Vi</em>. A equipe brasileira conseguiu o que parecia impossível: buscaram o resultado, empataram o jogo em <strong>15 a 15</strong> e forçaram a prorrogação (overtime).
+                            </p>
+                            
+                            <p>
+                                Com o ímpeto e a moral totalmente a seu favor, a Luminosity dominou o tempo extra e fechou o mapa com um placar final de <strong>19 a 17</strong>. Essa vitória no primeiro mapa foi o golpe psicológico que definiu a série, abrindo caminho para a LG vencer o segundo mapa de forma dominante e conquistar o <strong>primeiro e inesquecível título de Major para o Brasil</strong>.
+                            </p>
+
+                </section>
+            </article>
+        </main>
+
+        <aside>
+            <h3 id="ficha-tecnica">Ficha Técnica do Jogo</h3>
+            <!--DL (Description List) para a ficha técnica do jogo-->
+            <!--DT (Description Term) - Dados do jogo-->
+            <!--DD (Description Description) - Informações sobre o jogo-->
+            <dl>
+                <dt>Desenvolvedora(s):</dt>
+                <dd>Valve Corporation, Hidden Path Entertainment</dd>
+                <dt>Publicadora:</dt>
+                <dd>Valve Corporation</dd>
+                <dt>Série:</dt>
+                <dd><em>Counter-Strike</em></dd>
+                <dt>Data de Lançamento:</dt>
+                <dd>21 de agosto de 2012</dd>
+                <dt>Sucessor:</dt>
+                <dd><em>Counter-Strike 2</em> (2023)</dd>
+                <dt>Gênero:</dt>
+                <dd>Tiro em primeira pessoa (FPS)</dd>
+                <dt>Modos de Jogo:</dt>
+                <dd>Multiplayer</dd>
+                <dt>Plataformas:</dt>
+                <dd>Windows, OS X, Linux</dd>
+            </dl>
+        </aside>
+    </section>
+
+    <footer>
+        <section class="container">
+            <p>Conteúdo adaptado de fontes da comunidade e da <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" target="_self">Wikipédia.</a> Última atualização em 2 de julho de 2025.</p>
+            <p>&copy; 2025 - Todos os direitos reservados. | <a href="#top">Voltar ao topo</a></p>
+        </section>
+    </footer>
+
+</body>
+</html>
